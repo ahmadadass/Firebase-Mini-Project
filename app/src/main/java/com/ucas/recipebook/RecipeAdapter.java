@@ -82,10 +82,10 @@ public class RecipeAdapter extends BaseAdapter {
                 Bitmap bitmap = BitmapFactory.decodeByteArray(decodedString, 0, decodedString.length);
                 image.setImageBitmap(bitmap);
             } catch (Exception e) {
-                image.setImageResource(R.drawable.ic_recipe_book_logo_color);
+                image.setImageResource(R.drawable.ic_recipe_book_logo);
             }
         } else {
-            image.setImageResource(R.drawable.ic_recipe_book_logo_color);
+            image.setImageResource(R.drawable.ic_recipe_book_logo);
         }
 
         favorite.setOnClickListener(null);

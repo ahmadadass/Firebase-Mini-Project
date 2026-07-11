@@ -293,7 +293,7 @@ public class AddRecipeActivity extends AppCompatActivity {
             Bitmap bitmap = BitmapFactory.decodeByteArray(decodedString, 0, decodedString.length);
             ivRecipeImage.setImageBitmap(bitmap);
         } catch (Exception e) {
-            ivRecipeImage.setImageResource(R.drawable.ic_recipe_book_logo_color);
+            ivRecipeImage.setImageResource(R.drawable.ic_recipe_book_logo);
         }
     }
 }

@@ -58,7 +58,7 @@
                     android:layout_width="150dp"
                     android:layout_height="150dp"
                     android:scaleType="centerCrop"
-                    tools:srcCompat="@drawable/ic_recipe_book_logo_color" />
+                    tools:srcCompat="@drawable/ic_recipe_book_logo" />
             </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView

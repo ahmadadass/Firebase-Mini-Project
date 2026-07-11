@@ -143,7 +143,7 @@ public class ProfileRecipeAdapter extends BaseAdapter {
 
     private void showImage(ImageView imageView, String base64Image) {
         if (base64Image == null || base64Image.isEmpty()) {
-            imageView.setImageResource(R.drawable.ic_recipe_book_logo_color);
+            imageView.setImageResource(R.drawable.ic_recipe_book_logo);
             return;
         }
 
@@ -152,7 +152,7 @@ public class ProfileRecipeAdapter extends BaseAdapter {
             Bitmap bitmap = BitmapFactory.decodeByteArray(decodedString, 0, decodedString.length);
             imageView.setImageBitmap(bitmap);
         } catch (Exception e) {
-            imageView.setImageResource(R.drawable.ic_recipe_book_logo_color);
+            imageView.setImageResource(R.drawable.ic_recipe_book_logo);
         }
     }
 }

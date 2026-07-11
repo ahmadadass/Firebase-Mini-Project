@@ -205,7 +205,7 @@ public class ShowRecipeActivity extends AppCompatActivity {
     }
     private void showImage(String base64Image) {
         if (base64Image == null || base64Image.isEmpty()) {
-            imShowRecipe.setImageResource(R.drawable.ic_recipe_book_logo_color);
+            imShowRecipe.setImageResource(R.drawable.ic_recipe_book_logo);
             return;
         }
 
@@ -214,7 +214,7 @@ public class ShowRecipeActivity extends AppCompatActivity {
             Bitmap bitmap = BitmapFactory.decodeByteArray(decodedString, 0, decodedString.length);
             imShowRecipe.setImageBitmap(bitmap);
         } catch (Exception e) {
-            imShowRecipe.setImageResource(R.drawable.ic_recipe_book_logo_color);
+            imShowRecipe.setImageResource(R.drawable.ic_recipe_book_logo);
         }
     }
 

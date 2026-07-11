@@ -22,7 +22,7 @@
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:srcCompat="@drawable/ic_recipe_book_logo_color" />
+            app:srcCompat="@drawable/ic_recipe_book_logo" />
 
         <TextView
             android:id="@+id/tv_profile_recipe_title"
