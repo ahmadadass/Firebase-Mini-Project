@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- Core Brand Colors (Appetizing Orange/Amber Theme) -->
+    <color name="primary">#FF6F00</color>
+    <color name="primary_dark">#E65100</color>
+    <color name="accent">#FFAB40</color>
+
+    <!-- Light Theme Elements -->
+    <color name="bg_light">#FAFAFA</color>
+    <color name="surface_light">#FFFFFF</color>
+    <color name="text_primary_light">#212121</color>
+    <color name="text_secondary_light">#757575</color>
+    <color name="border_light">#E0E0E0</color>
+
+    <!-- Dark Theme Elements -->
+    <color name="bg_dark">#121212</color>
+    <color name="surface_dark">#1E1E1E</color>
+    <color name="text_primary_dark">#F5F5F5</color>
+    <color name="text_secondary_dark">#B0BEC5</color>
+    <color name="border_dark">#37474F</color>
+
+    <!-- Status Colors -->
+    <color name="toast_success">#4CAF50</color>
+    <color name="toast_error">#F44336</color>
+</resources>

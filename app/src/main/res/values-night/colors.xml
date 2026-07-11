@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Fixed colors -->
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- Brand colors - Dark Mode -->
+    <color name="primary">#FFB74D</color>
+    <color name="primary_dark">#121212</color>
+    <color name="accent">#FFCC80</color>
+
+    <!-- Important:
+         These names are still called "_light" because your layouts already use them.
+         In dark mode, Android will use these dark values automatically. -->
+    <color name="bg_light">#121212</color>
+    <color name="surface_light">#1E1E1E</color>
+    <color name="text_primary_light">#F5F5F5</color>
+    <color name="text_secondary_light">#B0BEC5</color>
+    <color name="border_light">#37474F</color>
+
+    <!-- Dark aliases -->
+    <color name="bg_dark">#121212</color>
+    <color name="surface_dark">#1E1E1E</color>
+    <color name="text_primary_dark">#F5F5F5</color>
+    <color name="text_secondary_dark">#B0BEC5</color>
+    <color name="border_dark">#37474F</color>
+
+    <!-- Extra semantic colors -->
+    <color name="on_primary">#212121</color>
+    <color name="icon_tint">#F5F5F5</color>
+
+    <!-- Status Colors -->
+    <color name="toast_success">#66BB6A</color>
+    <color name="toast_error">#EF5350</color>
+</resources>

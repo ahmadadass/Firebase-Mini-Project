@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="recipe_categories">
+        <item>Select Category</item>
+        <item>Breakfast</item>
+        <item>Lunch</item>
+        <item>Dinner</item>
+        <item>Dessert</item>
+        <item>Drink</item>
+        <item>Salad</item>
+        <item>Soup</item>
+        <item>Vegan</item>
+        <item>Fast Food</item>
+        <item>Other</item>
+    </string-array>
+
+    <string-array name="countries">
+        <item>Select Country</item>
+        <item>Palestine</item>
+        <item>Jordan</item>
+        <item>Egypt</item>
+        <item>Saudi Arabia</item>
+        <item>United Arab Emirates</item>
+        <item>Qatar</item>
+        <item>Kuwait</item>
+        <item>Bahrain</item>
+        <item>Oman</item>
+        <item>Lebanon</item>
+        <item>Syria</item>
+        <item>Iraq</item>
+        <item>Turkey</item>
+        <item>United States</item>
+        <item>United Kingdom</item>
+        <item>Other</item>
+    </string-array>
+
+</resources>
